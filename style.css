@@ -1,0 +1,194 @@
+/* ******************Navbar******************** */
+.Logo{
+    height: 70px;
+    width: 200px;
+}
+.annonces{
+background-color:#E40056 ;
+border-radius: 50px;
+color: white;
+padding: 15px;
+}
+.nav-link{
+    color: #2B4558;
+
+}
+.nav-link:hover{
+    border-top: 2px solid #f79a00;
+    border-bottom: 2px solid #f79a00;
+    color: #f79a00;
+    
+
+}
+
+
+/* *******************section1**************************** */
+.Accueil{
+    background: url('./images/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+.Afrique{
+    background-color: white;
+    border-radius: 50px;
+    padding: 30px;
+}
+.loupe{
+    background-color: #f79a00;
+    border-radius: 50%;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    
+}
+.loupe:hover{
+    background-color: #f79a00;
+
+}
+/* ***********Section2**************** */
+.font{
+    font-size: 10px;
+}
+.section4{
+    background-color: #f79a00;
+    height: 600px;
+}
+.monimage{
+    background-color: white;
+    padding: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sara{
+    color: #f79a00;
+}
+.Senegal{
+    border-bottom: 1px solid black;
+}
+/* .color{
+    background-color: rgb(192, 190, 190);
+  padding: 20px;
+
+} */
+/* *************FOOTER*************** */
+.footer{
+    background-color: #2B4558;
+    height: 300px;
+}
+.blanc{
+    width: 200px;
+    height: 60px;
+}
+.bordure{
+    border-left: 1px solid grey;
+    
+}
+.bordures{
+    border-right: 1px solid grey;
+
+}
+.jaune{
+    color: #f79a00;
+}
+.contact{
+    font-size: 13px;
+}
+.nov{
+    font-size: 11px;
+    color: gray;
+}
+.play{
+    height: 30px;
+    width: 100px;
+}
+/* **************Apropos**************************** */
+
+.propos{
+    background: url('./images/banner-apropos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.titre-propos{
+    font-size: 40px;
+}
+.projet{
+    font-size: 17px
+}
+strong{
+    color: black;
+}
+.iframe1{
+   height: 400px;
+     width:600px;
+     border-radius: 25px;
+}
+.epuipe{
+    color: #f79a00;
+    font-size: 40px;
+}
+.strongs{
+    color: #f79a00;
+    font-size: 40px;
+
+}
+/* *****************Presse************************* */
+.presse{
+    background: url('./images/banner-presse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+
+}
+.card-title{
+    color: #f79a00;
+}
+.card{
+    border-radius: 25px;
+}
+ .monpresse{
+    border-radius: 25px;
+ }
+    /* **************Tutoriels************************* */
+    .tutoriels{
+        background: url('./images/banner-tutoriels.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        background-position: center;
+
+    }
+    .number{
+        color: #f79a00;
+        font-size: 20px;
+    }
+
+   .iframe2{
+    height: 300px;
+    width:400px;
+
+   }
+/* **************Media queries***************************** */
+@media screen and (max-width:768px){
+    .Accueil{
+        height: 800px;
+
+    }
+    .section4{
+        height: 1600px;
+    }
+    .bordure{
+        border-bottom: 1px solid grey;
+       
+    
+    }
+    
+    
+}
