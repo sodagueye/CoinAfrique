@@ -210,7 +210,31 @@ strong{
     background-color: #f79a00;
    }
    /* *************************Contact***************************************** */
-   /* 
+   .contacter{
+    background: url('./images/banner-contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-position: center; 
+
+   }
+   .tacter{
+    background-color: gainsboro;
+   }
+   .mim{
+     width: 200px; 
+    background-color: white;
+    border: 1px solid rgb(212, 209, 209);
+   } 
+   .monde{
+    background: url('./images/monde.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: center; 
+
+
+   }
 /* **************Media queries***************************** */
 @media screen and (max-width:768px){
     .Accueil{
@@ -228,6 +252,11 @@ strong{
     .footer{
        
         height: 780px;
+    }
+    .Accueil{
+        
+        height: 900px;
+        
     }
     
     
