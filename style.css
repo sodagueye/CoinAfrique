@@ -175,6 +175,40 @@ strong{
     width:400px;
 
    }
+   /* **********************Blog************************************* */
+   .blog{
+    background: url('./images/banner-blog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+
+   }
+   .bouton{
+    font-size: 15px;
+    cursor: pointer;
+    color: gray;
+   }
+   .all{
+    color: #f79a00;
+   }
+   .bouton:hover{
+    color: #f79a00;
+   }
+   .hauteur{
+    height: 400px;
+   }
+   .pointe{
+    cursor: pointer;
+   }
+   .butonNumero{
+    background-color: #2B4558;
+    color: white;
+
+   }
+   .samapart{
+    background-color: #f79a00;
+   }
 /* **************Media queries***************************** */
 @media screen and (max-width:768px){
     .Accueil{
@@ -188,6 +222,10 @@ strong{
         border-bottom: 1px solid grey;
        
     
+    }
+    .footer{
+       
+        height: 780px;
     }
     
     
